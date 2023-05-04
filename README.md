@@ -19,18 +19,26 @@
 - 모두 문제를 풀었는지 확인 후 main branch로 merge한다.
 - 다음 문제를 풀기전에 꼭! pull하여 main branch와의 싱크를 맞춰준다.
 
+꼭!!! 현재 자신의 브랜치인지 확인하기!!
+
 ```
+// 커밋하기 전에 확인하기 (레포 파일 싱크 맞추기)
+git pull origin main
+
 git add .
 git branch
 git commit -m 'add: 이름'
 git push origin 개인브랜치이름
 
-// 커밋하기 전에 확인하기 (레포 파일 싱크 맞추기)
-git pull origin main
-
 // 브랜치 생성하기
-git clone address .
 git remote -v
-git checkout -t origin/개인브랜치
+git checkout -t origin/개인브랜치이름
+
+// 위의 명령어가 안되는 경우 아래 명령어 작성
+git branch 개인브랜치이름
+// 개인 브랜치로 이동
+git checkout 개인브랜치이름
+
+// 브랜치 확인하기
 git branch
 ```
