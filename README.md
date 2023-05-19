@@ -1,6 +1,6 @@
 # Algorithm-LvUpStudy
 
-## Commit Convention 📌
+## Commit Convention
 
 (리드미 수정예정)
 
@@ -16,8 +16,8 @@
 - 주어진 문제를 풀어 각자의 이름으로 브랜치를 생성하고 폴더에 작성하여 push한다.
 - 폴더 명은 문제명으로 하되 띄어쓰기는 -으로 대체한다.
 - main branch로 PR을 날리고 리뷰어를 등록한다.
-- 모두 문제를 풀었는지 확인 후 main branch로 merge한다.
-- 다음 문제를 풀기전에 꼭! pull하여 main branch와의 싱크를 맞춰준다.
+- 주말이 되면 모두 문제를 풀었는지 확인 후 `yoojin(이유진)`가 `main` branch로 `merge`한다.
+- 다음 문제를 풀기전에 꼭! `pull`하여 main branch와의 싱크를 맞춰준다.
 
 꼭!!! 현재 자신의 브랜치인지 확인하기!!
 
@@ -26,7 +26,6 @@
 git pull origin main
 
 git add .
-git branch
 git commit -m 'add: 이름'
 git push origin 개인브랜치이름
 
