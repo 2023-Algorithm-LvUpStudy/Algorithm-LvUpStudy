@@ -1,4 +1,4 @@
-for i in range(9):
+for i in range(9) :
     tem = list(map(int, input().split()))
 
     if i == 0:
@@ -13,4 +13,4 @@ for i in range(9):
             col = tem.index(max_value) + 1
 
 print(max_value)
-print(row, col)
+print(row, col) 
